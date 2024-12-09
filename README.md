@@ -1,50 +1,53 @@
-# React + TypeScript + Vite
+# Web Development Agency Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern and responsive website for a web development agency built using **ReactJS** and **Vite**. It showcases the agency's services, pricing plans, testimonials, and client-centric approach with a clean and intuitive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Fast and Optimized**: Built with Vite for lightning-fast development and performance.
+- **Modern Design**: Responsive layouts and animations for a seamless user experience.
+- **Client-Focused Content**: Includes sections like Client-Centric Services, Pricing Plans, Testimonials, and more.
+- **Scalable and Modular**: Designed to grow with your agency's needs, with clean and maintainable code.
+- **Accessibility**: Ensures inclusivity with a focus on accessibility standards.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **ReactJS**: For building interactive and dynamic user interfaces.
+- **Vite**: For a faster and modern build tool.
+- **CSS Modules**: For scoped and maintainable styles.
+- **React Icons**: For consistent and modern iconography.
+- **Axios** (Optional): For API integration and data fetching.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Installation and Setup
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/your-username/agency-website.git
+   cd agency-website
+2. npm install
+
+3.npm run dev
+
+4.npm run build
+
+src/
+├── assets/       # Static assets (images, fonts, etc.)
+├── components/   # Reusable React components
+├── utils/        # Helper functions and utilities
+└── App.jsx       # Root component and other files
+
+Contributing
+Contributions are welcome! Feel free to fork the repository and submit a pull request. Ensure your code adheres to the project's coding standards.
+
+License
+This project is licensed under the MIT License. You are free to use and modify the code as per the license terms.
+
+Contact
+For questions, feedback, or collaboration opportunities, reach out to us at ojadhav250@gmail.com or visit our webonism.vercel.app.
+
