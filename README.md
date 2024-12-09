@@ -58,6 +58,9 @@ Screenshots
 ![Homepage Screenshot](screenshot1.png)
 
 ### Services Page
+![Services Page Screenshot](screenshot3.png)
+
+### FAQ Page
 ![Services Page Screenshot](screenshot2.png)
 
 ---
