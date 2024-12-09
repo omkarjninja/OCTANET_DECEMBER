@@ -36,9 +36,9 @@ This is a modern and responsive website for a web development agency built using
 
 4.npm run build
 
-###Project Structure
+### Project Structure
 
-##src/
+src/
 ├── assets/       # Static assets (images, fonts, etc.)
 ├── components/   # Reusable React components
 ├── utils/        # Helper functions and utilities
@@ -62,12 +62,12 @@ Screenshots
 
 ---
 
-###License
+## License
 This project is licensed under the MIT License. You are free to use and modify the code as per the license terms.
 
-###Contributing
+## Contributing
 Contributions are welcome! Feel free to fork the repository and submit a pull request. Ensure your code adheres to the project's coding standards.
 
 
-###Contact
-For questions, feedback, or collaboration opportunities, reach out to us at ojadhav250@gmail.com or visit our webonism.vercel.app.
+## Contact
+For questions, feedback, or collaboration opportunities, reach out to us at ojadhav250@gmail.com or visit at webonism.vercel.app.
