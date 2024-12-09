@@ -54,4 +54,10 @@ For questions, feedback, or collaboration opportunities, reach out to us at ojad
 
 Screenshots
 
+### Homepage
+![Homepage Screenshot](screenshot1.png)
 
+### Services Page
+![Services Page Screenshot](screenshot2.png)
+
+---
